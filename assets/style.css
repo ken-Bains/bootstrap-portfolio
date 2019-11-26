@@ -1,0 +1,21 @@
+/* .row {
+    border: 1px solid black;
+}
+.col {
+    border: 1px solid red;
+} */
+.underlineStyle {
+    width: 100%; 
+    background-color: #cccccc; 
+    height: 1px; 
+    border-color : transparent;"
+}
+#profilePic {
+    height: 200px;
+    width: 180px;
+    /* margin: 0 15px 0 0;
+    float: left; */
+}
+body {
+    background-image: url("images/united-squares-negative.png");
+}
