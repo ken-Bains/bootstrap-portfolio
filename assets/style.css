@@ -4,12 +4,13 @@
 .col {
     border: 1px solid red;
 } */
-.underlineStyle {
+/* .underlineStyle {
     width: 100%; 
     background-color: #cccccc; 
     height: 1px; 
     border-color : transparent;"
-}
+} */
+
 #profilePic {
     height: 200px;
     width: 180px;
@@ -18,4 +19,10 @@
 }
 body {
     background-image: url("images/united-squares-negative.png");
+}
+header .border-bottom {
+    border-width: 2px !important;
+}
+footer .border-top {
+    border-width: 8px !important;
 }
