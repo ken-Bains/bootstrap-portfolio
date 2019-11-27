@@ -23,8 +23,17 @@ footer .border-top {
 header p {
     width: 200px;
 }
+.container {
+    max-width: 960px;
+}
+header {
+    padding-top: 20px;
+}
 
 @media (max-width: 767.9px) {
+    header {
+        padding-top: 0px !important;
+    }
     header p {
         width: 100%;
     }
@@ -41,6 +50,11 @@ header p {
         justify-content: center !important;
     }
 }
+/* @media (min-width: 768px) {
+    header {
+        padding-top: 20px;
+    }
+} */
 
 @media (max-width: 992px) {
     .container{
