@@ -1,15 +1,8 @@
-/* .row {
-    border: 1px solid black;
-}
-.col {
-    border: 1px solid red;
-} */
 
 #profilePic {
     height: 200px;
     width: 180px;
-    /* margin: 0 15px 0 0;
-    float: left; */
+
 }
 body {
     background-image: url("images/united-squares-negative.png");
@@ -50,28 +43,33 @@ header {
         justify-content: center !important;
     }
 }
-/* @media (min-width: 768px) {
-    header {
-        padding-top: 20px;
-    }
-} */
 
 @media (max-width: 992px) {
     .container{
         margin-left: 0px !important;
     }
 }
-/* @media only screen and (min-width: 768px) {
-    header p {
-        width: 200px;
-    }
+
+/* PORTFOLIO PAGE */
+.card {
+    height: 200px;
+    height: 200px;
+}
+.card-img {
+    width: 200px;
+    height: 200px;
 }
 
-@media only screen and (min-width: 620px) {
-    .col-md-1 {
-        display: none;
-    }
-    header p {
-        width: 100%;
-    }
-} */
+.card, .card-img-overlay {
+    padding: 0px !important;
+}
+
+.card-title {
+    margin-top: 140px;
+    height: 50px;
+    padding-top: 10px;
+}
+
+.card-deck {
+    margin: 0 0 20px 0;
+}
