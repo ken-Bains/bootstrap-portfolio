@@ -4,12 +4,6 @@
 .col {
     border: 1px solid red;
 } */
-/* .underlineStyle {
-    width: 100%; 
-    background-color: #cccccc; 
-    height: 1px; 
-    border-color : transparent;"
-} */
 
 #profilePic {
     height: 200px;
@@ -26,3 +20,44 @@ header .border-bottom {
 footer .border-top {
     border-width: 8px !important;
 }
+header p {
+    width: 200px;
+}
+
+@media (max-width: 767.9px) {
+    header p {
+        width: 100%;
+    }
+    .col-md-1 {
+        display: none !important;
+    }
+    .container {
+        max-width: 100% !important;
+    }
+    .mainBodyWraper .col-md-10 {
+        margin: 0 10px 0 10px;
+    }
+    .justify-content-end {
+        justify-content: center !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .container{
+        margin-left: 0px !important;
+    }
+}
+/* @media only screen and (min-width: 768px) {
+    header p {
+        width: 200px;
+    }
+}
+
+@media only screen and (min-width: 620px) {
+    .col-md-1 {
+        display: none;
+    }
+    header p {
+        width: 100%;
+    }
+} */
